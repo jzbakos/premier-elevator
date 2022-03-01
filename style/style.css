@@ -1,0 +1,134 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,300,800');
+
+
+body {
+    margin: 0;
+    font-family: "Open Sans", sans-serif;
+    background-image: url("../assets/bg-min.png");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+/* NAVBAR */
+
+nav {
+    margin-bottom: 4rem;
+}
+
+#nav-content {
+    height: 100px;
+    width: 60%;
+    margin: auto;
+    padding: 1.2em;
+}
+
+#nav-logo-container {
+    display: inline-block;
+    height: 100%;
+}
+
+#nav-logo-img {
+    max-height: 100%;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+#nav-items-container {
+    float: right;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: block;
+    color: white;
+    text-align: center;
+    margin: 1.2rem 2rem;
+    padding-bottom: 0.4rem;
+    padding-top: 1.2rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.9rem;
+    transition: 0.3s;
+}
+
+nav li a:hover {
+    color: rgb(201, 201, 201);
+}
+
+.active {
+    border-bottom: 2px solid white;
+}
+
+.active:hover {
+    border-bottom: 2px solid rgb(201, 201, 201);
+}
+
+/* CONTENT */
+
+#header-content {
+    width: 60%;
+    margin: auto;
+}
+
+.tagline {
+    width: 50%;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 800;
+    line-height: 1.2;
+}
+
+.subheading {
+    padding-top: 0.5rem;
+    padding-bottom: 2rem;
+    width: 45%;
+    color: white;
+    font-weight: 600;
+}
+
+#main-content {
+    padding-top: 5%;
+    width: 40%;
+    margin: auto;
+}
+
+.heading {
+    color: rgb(41, 41, 41);
+    font-size: 2.5rem;
+    font-weight: 800;
+    text-align: center;
+    margin-top: 10rem;
+}
+
+/* BUTTONS */
+
+.btn {
+    background-color: white;
+    color: rgb(75, 75, 75);
+    padding: 0.8rem 2rem;
+    border-radius: 30px;
+    border: none;
+    text-decoration: none;
+    font-size: 0.9rem;
+    font-weight: 600;
+    transition: 0.3s;
+}
+
+.btn:hover {
+    background-color: rgb(226, 226, 226);
+    color: rgb(10, 10, 10);
+}
